@@ -1,0 +1,145 @@
+<!-- 1内部样式表，将css写到style里 -->
+ <!-- 2外部样式表，将css写道.css文件中，在HTML中用linl引入 -->
+  <link rel="stylesheet" href=" ">
+  <!-- 3行内样式配合JavaScript使用 -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css库.css">
+    <style>
+        /* awa定义标签要写到style里 */
+        .size {
+            font-size: 50px;
+        }
+
+        .red {
+            color :aqua;
+        }
+    p {
+        color: crimson;
+        font-size: 30px;
+    }
+    /* 选中同名标签修改相同样式，无法差异化同名标签的样式*/
+
+    /* id选择器 */
+    #color-red {
+        color: brown;
+    }
+    /* 通配符选择器，选择所有标签设置样式，不做展示 */
+    /*     *{color : red}            */
+    /* 芝士背景 */
+    .back {
+        width: 200;
+        height: 200;
+        background-color: blueviolet;
+    }
+    /* 字体大小  font-size */
+    /* 字体粗细  font-weight */
+    /* 字体倾斜  font-style */
+
+         暂无示例
+     
+    /* 行高默认为16像素，line-height表示倍数 */
+    /* 如果有修改像素，则为像素标签的倍数 */
+    
+
+
+    h2 {
+        line-height: 2;
+    }
+
+/* 垂直居中技巧:行高属性值等于盒子高度属性值 */
+    h3 {
+          height: 200px;
+          background-color: skyblue;
+          line-height: 200px;
+    }
+
+
+    /* 字体族   font-family */
+    h4 {
+        font-family:fantasy;
+        font-size: 100px;
+    }
+
+    /* 牛逼缝合怪font */
+    /* 最不牛逼的一集:字号和字体必须书写，否则font书属性无效 */
+    h5 {
+        font:700 italic 50px fantasy; 
+    }
+
+    /* 文本缩进 */
+    /* 就是中文前面的那俩空格 */
+    h6 {
+        text-indent: 2em;
+    }
+    /* 水平对齐 */
+    h7 {
+        text-align: center;
+    }
+    
+    
+    
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <p>css the first</p>
+    <div>css the second</div>
+    <br><br>
+    <div style="color:red ;font-size:30px"></divstyle>css the third</div>
+<!-- awa类选择器使用处 -->
+ <p class="red">p类选择器111</p>
+ <div class="red size ">div选择器+color+size</div>
+<!-- id选择器使用 -->
+ <div id="#color-red" class="back">id选择器+背景</div>
+ <!-- 行高示例 -->
+<h2>
+    芝士行高示例'-'
+</h2>
+
+<!-- 垂直居中实例 -->
+<h3>
+    垂直居中EZ :)
+</h3>
+
+<!-- 字体示例 -->
+ <h4>
+    im the test XD
+ </h4>
+
+ <!-- font缝合示例 -->
+  <h5>
+    我是缝合怪D:
+  </h5>
+  <!-- 文本缩进 -->
+   <h6>
+    花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭花之塔豪庭
+   </h6>
+<!-- 居中示例 -->
+ h7
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
